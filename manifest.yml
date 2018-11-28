@@ -1,0 +1,6 @@
+applications:
+  - name: springbootmongodb
+    buildpack: java_buildpack
+    path: target/spring-boot-mongodb-0.0.1-SNAPSHOT.jar
+    services:
+      - mongodb
